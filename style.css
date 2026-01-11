@@ -126,3 +126,111 @@ nav ul li a:hover {
    justify-content: center;
    border: 1px solid #ffffff;
 }
+
+
+
+
+.note-card {
+    width: 220px;
+    height: 250px;
+    border-radius: 8px;
+    padding: 24px;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+    text-align: center;      
+}
+
+.note-img {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 100%;
+    object-fit: contain; 
+    margin-bottom: 15px; 
+    top: 131px;
+}
+
+.note-box {
+    display: flex;
+   
+    justify-content: center;
+    gap: 20px;
+    padding: 24px;
+}
+
+.note {
+    text-align: center;
+    padding: 24px;
+}
+.highlight {
+    color: #469165;
+}
+.knowlwge-section {
+    display: flex;
+    justify-items: center;
+    justify-content:space-around;
+    align-items: center;
+    gap: 60px;
+}
+.knowlege-img {
+    height: 600px;
+    width: 600px;
+    padding: 26px;
+}
+.know-text{
+    font-size: 48px;
+    font-style:normal;
+    font-weight: bold;
+}
+.para-1{
+   display: flex;
+}
+.access-section{ 
+    justify-items: center;
+    color: #F7F6F2;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+     padding: 20px;
+     border-radius: 8px;
+}
+.access-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    padding: 24px;
+
+}
+.para-text {
+    color:#627382 ;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 30px 120px;
+    gap: 24px;
+    background-color: #001931;
+
+}
+.footer-img {
+    width: 139px;
+    height: 60px;
+}
+.footer-text {
+    color: white;
+}
+.footer-section{
+    background-color: #001931;
+}
+.footer-para{
+  color: white;
+    justify-content: center;
+   padding: 20px;
+    display: flex;
+}
+.center-divider {
+    width: 80%;
+   
+
+}
